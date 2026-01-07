@@ -1,3 +1,4 @@
 /*
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://www.google-analytics.com; object-src 'none'; worker-src 'none'; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-RdND+xbZdsvkJVJ6WsakG0I2I8Fbokgpz2hE1+/WmmI=
+' 'sha256-96mq/4aAxPE9JG34DLgVG6yr77upkZ4JJConQ3tfRRU=' 'sha256-CvI7hu5vad0SHq7E48ODoqQs2woxJvZix1gzCO6TPF8=' 'sha256-KdWRN3ZWNN/UU26s6IGFJzpIf+ckO+iY+cmT+w0AHWs=' 'sha256-drydphuxxbyqjrxNYfu1RP1Dd/xnwJ770V7uzzPV7WY=' 'sha256-iNciYi4gjfgSqM/9QY8JJWVYibqi5p2Qw3kPmOdhx9A=' https:; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://www.google-analytics.com; object-src 'none'; worker-src 'none'; frame-ancestors 'none'
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
