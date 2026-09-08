@@ -16,6 +16,18 @@
   color: #2eb1a7;
 }
 
+.logo-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.site-logo {
+  max-width: 200px;
+  height: auto;
+}
+
 .content {
   display: -webkit-box;
   display: -webkit-flex;
