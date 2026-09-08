@@ -17,14 +17,13 @@
 }
 
 .logo-block {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding-top: 30px;
+  position: relative; 
+  z-index: 1;
+  display: block;
 }
 
 .site-logo {
-  max-width: 200px;
+  max-width: 200px; 
   height: auto;
 }
 
@@ -1751,6 +1750,9 @@ html.w-mod-js *[data-ix="display-none"] {
   .content.green {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+  .site-logo {
+    max-width: 120px;
   }
   .purple-top {
     border-top-width: 20px;
